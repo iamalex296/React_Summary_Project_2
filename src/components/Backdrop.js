@@ -1,5 +1,5 @@
-const Backdrop = () => {
-  return <div className="backdrop" />;
+const Backdrop = ({ closeModal }) => {
+  return <div className="backdrop" onClick={closeModal} />;
 };
 
 export default Backdrop;
